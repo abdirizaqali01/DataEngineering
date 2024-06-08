@@ -1,4 +1,4 @@
-package com.nordea.interview
+package com.*.interview
 
 import org.apache.spark.sql.{DataFrame, SparkSession, Column}
 import org.apache.spark.sql.expressions.UserDefinedFunction
