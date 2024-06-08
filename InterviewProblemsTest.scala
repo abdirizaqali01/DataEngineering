@@ -1,9 +1,9 @@
-package com.nordea.interview
+package com.*.interview
 
-import com.nordea.interview.utils.SparkTestingUtils
+import com.*.interview.utils.SparkTestingUtils
 import org.apache.spark.sql.types._
 import com.github.mrpowers.spark.daria.sql.SparkSessionExt.SparkSessionMethods
-import com.nordea.interview.InterviewProblems.{countWordsUdf, preprocessAlertsDataOriginal, preprocessTaggedTransactionsData, preprocessTaggedTransactionsDataImproved, countWordsTransform, preprocessAlertsDataImproved}
+import com.*.interview.InterviewProblems.{countWordsUdf, preprocessAlertsDataOriginal, preprocessTaggedTransactionsData, preprocessTaggedTransactionsDataImproved, countWordsTransform, preprocessAlertsDataImproved}
 import org.apache.spark.sql.functions.col
 
 class InterviewProblemsTest extends SparkTestingUtils {
